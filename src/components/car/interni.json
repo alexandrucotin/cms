@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_car_internis",
+  "info": {
+    "displayName": "Interni",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "numero_posti": {
+      "type": "integer"
+    },
+    "tessuto": {
+      "type": "string"
+    },
+    "immagini": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "descrizione": {
+      "type": "text"
+    }
+  }
+}

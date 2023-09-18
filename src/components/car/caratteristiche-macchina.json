@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_car_caratteristiche_macchinas",
+  "info": {
+    "displayName": "Caratteristiche macchina",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nome_caratteristica": {
+      "type": "string"
+    },
+    "valore_caratteristica": {
+      "type": "string"
+    },
+    "usa_in_miniatura_catalogo": {
+      "type": "boolean"
+    },
+    "icona_caratteristica": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

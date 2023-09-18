@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_car_motores",
+  "info": {
+    "displayName": "Motore",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cilindrata": {
+      "type": "string"
+    },
+    "cavalli": {
+      "type": "decimal"
+    },
+    "cilindri": {
+      "type": "integer"
+    },
+    "trasmissione": {
+      "type": "string"
+    },
+    "coppia": {
+      "type": "float"
+    }
+  }
+}

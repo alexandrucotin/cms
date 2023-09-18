@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_car_anagraficas",
+  "info": {
+    "displayName": "Anagrafica",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brand": {
+      "type": "string"
+    },
+    "modello": {
+      "type": "string"
+    },
+    "immatricolazione": {
+      "type": "date"
+    },
+    "logo_brand": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tipologia": {
+      "type": "enumeration",
+      "enum": [
+        "supercar",
+        "suv",
+        "business",
+        "utility"
+      ]
+    },
+    "prezzo": {
+      "type": "float"
+    },
+    "disponibilita": {
+      "type": "enumeration",
+      "enum": [
+        "disponibile",
+        "inarrivo",
+        "nondisponibile"
+      ]
+    },
+    "introduzione": {
+      "type": "richtext"
+    },
+    "targa": {
+      "type": "string"
+    }
+  }
+}

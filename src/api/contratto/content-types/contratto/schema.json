@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contrattos",
+  "info": {
+    "singularName": "contratto",
+    "pluralName": "contrattos",
+    "displayName": "Contratto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cliente": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cliente.cliente",
+      "inversedBy": "contratti"
+    },
+    "macchina": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::macchina.macchina"
+    },
+    "inizio_chilometri": {
+      "type": "integer"
+    },
+    "fine_chilometri": {
+      "type": "integer"
+    },
+    "foto_inzio_noleggio": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "foto_fine_noleggio": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "pdf_contratto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "nome": {
+      "type": "string"
+    },
+    "logo_contratto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "immagine_danni": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

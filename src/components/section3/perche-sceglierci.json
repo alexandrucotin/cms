@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section3_perche_scegliercis",
+  "info": {
+    "displayName": "Perche Sceglierci"
+  },
+  "options": {},
+  "attributes": {
+    "titolo": {
+      "type": "string"
+    },
+    "descrizione": {
+      "type": "text"
+    },
+    "icona": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

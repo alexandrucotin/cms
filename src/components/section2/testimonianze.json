@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section2_testimonianzes",
+  "info": {
+    "displayName": "Testimonianze"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "testimonianza": {
+      "type": "text"
+    }
+  }
+}

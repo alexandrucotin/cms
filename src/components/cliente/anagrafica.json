@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_cliente_anagraficas",
+  "info": {
+    "displayName": "Anagrafica",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "comune": {
+      "type": "string"
+    },
+    "provincia": {
+      "type": "string"
+    },
+    "cap": {
+      "type": "integer"
+    },
+    "paese": {
+      "type": "string"
+    },
+    "strada": {
+      "type": "string"
+    }
+  }
+}

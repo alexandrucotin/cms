@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Cliente",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "cognome": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contratti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contratto.contratto",
+      "mappedBy": "cliente"
+    },
+    "nato_a": {
+      "type": "string"
+    },
+    "data_nascita": {
+      "type": "date"
+    },
+    "indirizzo": {
+      "displayName": "Anagrafica",
+      "type": "component",
+      "repeatable": false,
+      "component": "cliente.anagrafica"
+    },
+    "documenti": {
+      "displayName": "Documenti",
+      "type": "component",
+      "repeatable": true,
+      "component": "cliente.documenti"
+    }
+  }
+}

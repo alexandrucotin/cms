@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_2s",
+  "info": {
+    "singularName": "section-2",
+    "pluralName": "section-2s",
+    "displayName": "Section 2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intestazione": {
+      "type": "string"
+    },
+    "paragrafo": {
+      "type": "text"
+    },
+    "testimonianze": {
+      "displayName": "Testimonianze",
+      "type": "component",
+      "repeatable": true,
+      "component": "section2.testimonianze"
+    }
+  }
+}

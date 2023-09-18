@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "macchinas",
+  "info": {
+    "singularName": "macchina",
+    "pluralName": "macchinas",
+    "displayName": "Macchina",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "miniatura": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "badge": {
+      "type": "string"
+    },
+    "immagini": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "motore": {
+      "displayName": "Motore",
+      "type": "component",
+      "repeatable": false,
+      "component": "car.motore"
+    },
+    "interni": {
+      "displayName": "Interni",
+      "type": "component",
+      "repeatable": false,
+      "component": "car.interni"
+    },
+    "anagrafica": {
+      "displayName": "Anagrafica",
+      "type": "component",
+      "repeatable": false,
+      "component": "car.anagrafica"
+    },
+    "nome_macchina": {
+      "type": "string"
+    }
+  }
+}

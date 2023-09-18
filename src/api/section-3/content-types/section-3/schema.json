@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_3s",
+  "info": {
+    "singularName": "section-3",
+    "pluralName": "section-3s",
+    "displayName": "Section 3",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intestazione": {
+      "type": "string"
+    },
+    "paragrafo": {
+      "type": "text"
+    },
+    "perche_sceglierci": {
+      "displayName": "Perche Sceglierci",
+      "type": "component",
+      "repeatable": true,
+      "component": "section3.perche-sceglierci"
+    },
+    "immagine": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

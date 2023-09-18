@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_4s",
+  "info": {
+    "singularName": "section-4",
+    "pluralName": "section-4s",
+    "displayName": "Section 4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intestazione": {
+      "type": "string"
+    },
+    "servizi": {
+      "displayName": "Servizi",
+      "type": "component",
+      "repeatable": true,
+      "component": "section4.servizi"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section4_servizis",
+  "info": {
+    "displayName": "Servizi"
+  },
+  "options": {},
+  "attributes": {
+    "titolo": {
+      "type": "string"
+    },
+    "descrizione": {
+      "type": "text"
+    },
+    "immagine": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

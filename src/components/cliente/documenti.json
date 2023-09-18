@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_cliente_documentis",
+  "info": {
+    "displayName": "Documenti"
+  },
+  "options": {},
+  "attributes": {
+    "tipologia_documento": {
+      "type": "enumeration",
+      "enum": [
+        "passaporto",
+        "cartaIdentita",
+        "patente"
+      ]
+    },
+    "immagini_fronte_retro": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "numero": {
+      "type": "string"
+    },
+    "data_emissione": {
+      "type": "date"
+    },
+    "data_scadenza": {
+      "type": "date"
+    },
+    "rilasciato_da": {
+      "type": "string"
+    }
+  }
+}
