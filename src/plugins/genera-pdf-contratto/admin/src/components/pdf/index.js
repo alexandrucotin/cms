@@ -10,11 +10,17 @@ import {
 } from "@react-pdf/renderer";
 import LabelText from "../atoms/label-value";
 
+// @ts-ignore
 import OpenSansItalic from "../../../assets/fonts/OpenSans-Italic.ttf";
+// @ts-ignore
 import OpenSansLight from "../../../assets/fonts/OpenSans-Light.ttf";
+// @ts-ignore
 import OpenSansRegular from "../../../assets/fonts/OpenSans-Regular.ttf";
+// @ts-ignore
 import OpenSansMedium from "../../../assets/fonts/OpenSans-Medium.ttf";
+// @ts-ignore
 import OpenSansSemibold from "../../../assets/fonts/OpenSans-SemiBold.ttf";
+// @ts-ignore
 import OpenSansBold from "../../../assets/fonts/OpenSans-Bold.ttf";
 
 import Section1 from "./sections/section1";
@@ -114,7 +120,7 @@ const MyDocument = ({ contract }) => {
   console.log("CONTRACT DOC: ", contract);
 
   const buildImageLink = (link) => {
-    const baseUrl = "http://localhost:1337";
+    const baseUrl = process.env.STRAPI_ADMIN_IMAGE_BASE_URL;
     return `${baseUrl}${link}`;
   };
 
